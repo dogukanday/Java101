@@ -2,25 +2,36 @@ import java.util.Scanner;
 
 public class MintoMax {
     public static void main(String[] args) {
-        int[] numbers = {};
-        Scanner scanner = new Scanner(System.in);
-        numbers = new int[3];
-        System.out.println("Sayıları giriniz: ");
-        for (int i = 0; i < 3; i++) {
-            numbers[i] = scanner.nextInt();
+
+        Scanner input = new Scanner(System.in);
+
+        int sayi1, sayi2, sayi3;
+        System.out.print("1.Sayı: ");
+        sayi1 = input.nextInt();
+        System.out.print("2.Sayı: ");
+        sayi2 = input.nextInt();
+        System.out.print("3.Sayı: ");
+        sayi3 = input.nextInt();
+
+        if (sayi1 > sayi2 && sayi1 > sayi3) {
+            if (sayi2 > sayi3)
+                System.out.print(sayi1 + ">" + sayi2 + ">" + sayi3);
+            else
+                System.out.print(sayi1 + ">" + sayi3 + ">" + sayi2);
         }
 
-        int min = numbers[0];
-        int max = numbers[0];
-        for (int i = 1; i < numbers.length; i++) {
-            if (numbers[i] < min) {
-                min = numbers[i];
-            }
-            if (numbers[i] > max) {
-                max = numbers[i];
-            }
+        if (sayi2 > sayi1 && sayi2 > sayi3) {
+            if (sayi1 > sayi3)
+                System.out.print(sayi2 + ">" + sayi1 + ">" + sayi3);
+            else
+                System.out.print(sayi2 + ">" + sayi3 + ">" + sayi1);
         }
-        System.out.println("Minimum: " + min);
-        System.out.println("Maximum: " + max);
+
+        if (sayi3 > sayi2 && sayi3 > sayi1) {
+            if (sayi1 > sayi2)
+                System.out.print(sayi3 + ">" + sayi1 + ">" + sayi2);
+            else
+                System.out.print(sayi3 + ">" + sayi1 + ">" + sayi2);
+        }
     }
 }

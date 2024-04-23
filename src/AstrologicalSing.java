@@ -5,12 +5,16 @@ public class AstrologicalSing {
         int month, day;
         Scanner scanner = new Scanner(System.in);
 
+        // Kullanıcıdan doğum günü ve ayı alınır.
+
         System.out.println("Lütfen doğduğunuz günü giriniz: ");
         day = scanner.nextInt();
 
         System.out.println("Lütfen doğduğunuz ayı giriniz: ");
         month = scanner.nextInt();
 
+
+        // Girilen ay ve gün değerlerine göre burç belirlenir yanlış bir değer girilirse hata mesajı verilir.
         if(month<1 || month>12){
             System.out.println("Geçersiz ay girdiniz.");
         }

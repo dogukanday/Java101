@@ -5,6 +5,8 @@ public class GradeCalculator {
         int matematik, fizik, kimya, turkce, muzik;
         Scanner scanner = new Scanner(System.in);
 
+
+        // Kullanıcıdan notların alınması
         System.out.println("Lütfen matematik notunuzu giriniz: ");
         matematik = scanner.nextInt();
 
@@ -20,9 +22,10 @@ public class GradeCalculator {
         System.out.println("Lütfen müzik notunuzu giriniz: ");
         muzik = scanner.nextInt();
 
+        // Notların kontrolü ve ortalamanın hesaplanması
         if (matematik < 0 || matematik > 100 || fizik < 0 || fizik > 100 || kimya < 0 || kimya > 100 || turkce < 0 || turkce > 100 || muzik < 0 || muzik > 100) {
             System.out.println("Geçersiz not girdiniz, lütfen notlarınızı kontrol ediniz.");
-            return;
+
         }else {
             double average = (matematik + fizik + kimya + turkce + muzik) / 5.0;
             System.out.println("Ortalamanız: " + average);
