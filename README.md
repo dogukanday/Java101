@@ -1,32 +1,32 @@
-GroceryCalculator : About calculating price of vegetables
+Week1.GroceryCalculator : About calculating price of vegetables
 
-BmiCalculator : About calculating bmi
+Week1.BmiCalculator : About calculating bmi
 
-CircleCalculator : About calculating circle
+Week1.CircleCalculator : About calculating circle
 
-TriangleAreaCalculator : about calculating area of triangle
+Week1.TriangleAreaCalculator : about calculating area of triangle
 
-TaximeterCalculator : About calculating taxi fare
+Week1.TaximeterCalculator : About calculating taxi fare
 
-TaxCalculator : About calculating kdv taxes
+Week1.TaxCalculator : About calculating kdv taxes
 
-ActivityRecomender : About recommending activities according to the weather
+Week1.ActivityRecomender : About recommending activities according to the weather
 
-ArithmeticMean : About calculating arithmetic mean
+Week1.ArithmeticMean : About calculating arithmetic mean
 
-AstrologicalSing : About finding astrological sign according to birthdate
+Week1.AstrologicalSing : About finding astrological sign according to birthdate
 
-AverageGradeCalculator : About calculating average grade
+Week1.AverageGradeCalculator : About calculating average grade
 
-Calculator : Just calculator
+Week1.Calculator : Just calculator
 
-ChineseZodiacSign : About finding chinese zodiac sign according to birthdate
+Week1.ChineseZodiacSign : About finding chinese zodiac sign according to birthdate
 
-GradeCalculator : About calculating grade according to the score
+Week1.GradeCalculator : About calculating grade according to the score
 
 LeapYearCalculator : About finding leap year according to year
 
-MintoMax : About finding min and max number given by user (Max. 3 numbers)
+Week1.MintoMax : About finding min and max number given by user (Max. 3 numbers)
 
-Password : About join username and password and check if it is correct or not if its not correct it will give you a warning message and change the password
+Week1.Password : About join username and password and check if it is correct or not if its not correct it will give you a warning message and change the password
 
