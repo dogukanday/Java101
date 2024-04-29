@@ -11,7 +11,7 @@ public class ReverseStars {
         int num = scanner.nextInt();
 
         //ters üçgeni oluştur
-        for (int i = num - 1; i >= 1; i--) {
+        for (int i = num; i >= 1; i--) {
             for (int k = 1; k <= (2 * i - 1); k++) {
                 System.out.print("*");
             }
