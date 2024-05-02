@@ -16,7 +16,7 @@ public class PalindromeNumbers {
     }
 
     public static void main(String[] args) {
-        int num = 2456;
+        int num = 4004;
         int originalNum = num;
 
         if (isPalindrome(num)) {

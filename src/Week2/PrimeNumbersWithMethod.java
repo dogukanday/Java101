@@ -6,7 +6,7 @@ public class PrimeNumbersWithMethod {
 
     static boolean isPrime(int number,int base) {
         if (number <= 2)
-            return (number == 2) ? true : false;
+            return number == 2;
         if (number % base == 0)
             return false;
         if (base * base > number)
