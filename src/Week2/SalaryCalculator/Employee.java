@@ -18,6 +18,21 @@ public class Employee {
         this.hireYear = hireYear;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", hoursWorked=" + hoursWorked +
+                ", hireYear=" + hireYear +
+                ", tax=" + tax +
+                ", bonus=" + bonus +
+                ", raise=" + raise +
+                ", totalSalary=" + totalSalary +
+                ", year=" + year +
+                '}';
+    }
+
     void raiseSalary() {
         if (year - hireYear < 10) {
             raise = salary * 0.05;
@@ -56,5 +71,6 @@ public class Employee {
         System.out.println("Vergi ve bonuslar ile maaş: " + (salary + bonus - tax));
         System.out.println("Toplam maaş: " + totalSalary);
     }
+
 
 }

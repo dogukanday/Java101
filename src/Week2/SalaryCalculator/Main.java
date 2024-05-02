@@ -7,6 +7,6 @@ public class Main {
         employee1.bonus();
         employee1.tax();
         employee1.totalSalary();
-        employee1.print();
+        System.out.println(employee1);
     }
 }
