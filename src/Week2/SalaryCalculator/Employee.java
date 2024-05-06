@@ -53,7 +53,16 @@ public class Employee {
     void tax() {
         if (salary > 1000) {
             tax = salary * 0.03;
+        }else {
+            tax = 0;
         }
+    }
+    void calculate(){
+        raiseSalary();
+        bonus();
+        tax();
+        totalSalary();
+        print();
     }
 
     void totalSalary() {
@@ -63,7 +72,7 @@ public class Employee {
     void print() {
         System.out.println("Adi: " + name);
         System.out.println("Maaşı: " + salary);
-        System.out.println("ÇalışmaSaatı: " + hoursWorked);
+        System.out.println("Çalışma Saatı: " + hoursWorked);
         System.out.println("Başlangıç yılı: " + hireYear);
         System.out.println("Vergi: " + tax);
         System.out.println("Bonus: " + bonus);

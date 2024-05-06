@@ -20,6 +20,7 @@ public class Ring {
         if (checkWeight()) {
             while (f1.health > 0 && f2.health > 0) {
                 System.out.println("======== YENİ ROUND ===========");
+                Math.random();
                 if(start < 0.5){
                     f2.health = f1.hit(f2);
                     if (isWin()){
